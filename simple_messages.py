@@ -1,3 +1,3 @@
-message = "Hello, This is new message"
+message = "Hello, This is a new message"
 
 print(message)
