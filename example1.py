@@ -3,7 +3,7 @@ def display_message():
 display_message()
 
 
-def favorite_book():
-    print("One of my favorite books is To Kill A Mockingbird")
+def favorite_book(book="To Kill A Mockingbird"):
+    print(f"One of my favorite books is, {book.title()}.")
 
 favorite_book()
