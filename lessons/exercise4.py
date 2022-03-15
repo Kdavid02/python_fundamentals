@@ -37,7 +37,8 @@ convert_num(2, 2.9)
 
 def movie_seen():
     mve = input("what is your favorite movie?")
-    seen = int(input("How many times have you seen it?"))
+    # float to prevent error when inputing a float number.
+    seen = int(float(input("How many times have you seen it?")))
     print(f"I have seen {mve} {seen} times.")
 
 
