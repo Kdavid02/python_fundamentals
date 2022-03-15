@@ -54,7 +54,7 @@ print('is brand = nike. True')
 brand = 'Nike'
 print(brand.lower() == 'nike')
 print('is brand = toad False')
-brand.lower = 'toad'
+print(brand.lower() == 'toad')
 
 print('3 is equal to 3. True?')
 print(3 == 3)
@@ -83,3 +83,27 @@ print('cat' in animals)
 
 print('is car animal? False?')
 print('car' in animals)
+
+# 3
+
+
+def example(arg1):
+
+    x = arg1
+    x -= 3
+    print(x)
+
+    y = arg1
+    y %= 3
+    print(y)
+
+    z = arg1
+    z += 3
+    print(z)
+
+    a = arg1
+    a *= 3
+    print(a)
+
+
+example(3)
