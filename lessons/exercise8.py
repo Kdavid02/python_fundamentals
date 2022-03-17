@@ -1,6 +1,6 @@
 
 # 5-8 list 5 or more usernames including admin
-# if admin add special message and loop through a list of names as if they were logging into a website.
+# 5-10 if admin add special message and loop through a list of names as if they were logging into a website.
 usrnames = ['bob', 'steve', 'matthew', 'admin', 'tony']
 
 for usrname in usrnames:
